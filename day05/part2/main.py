@@ -13,13 +13,6 @@ stack = [
 	["J", "S", "Q", "C", "W", "D", "M"]
 ]
 
-# stack = [
-# 	["Z", "N"],
-# 	["M", "C", "D"],
-# 	["P"]
-# ]
-
-
 moveFrom = 0
 moveTo = 0
 quantity = 0
