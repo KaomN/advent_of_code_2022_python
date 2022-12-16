@@ -5,10 +5,8 @@ def checkIfContained(line):
 	section = line.strip().split(',')
 	pairOne = section[0].split('-')
 	pairTwo = section[1].split('-')
-	pairOneLen = abs(int(pairOne[0]) - int(pairOne[1]))
-	pairTwoLen = abs(int(pairTwo[0]) - int(pairTwo[1]))
-	pairOneLen += 1
-	pairTwoLen += 1
+	pairOneLen = abs(int(pairOne[0]) - int(pairOne[1]) + 1)
+	pairTwoLen = abs(int(pairTwo[0]) - int(pairTwo[1]) + 1)
 	if pairOneLen == pairTwoLen:
 		if int(pairOne[1]) > int(pairTwo[0]):
 			if int(pairOne[0]) > int(pairTwo[1]):
